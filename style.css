@@ -430,6 +430,9 @@ img {
 
 .padding {
     padding-top: 815px;
+    width: 1px;
+    background-color: none;
+    box-shadow: none;
 }
 
 footer {
@@ -464,7 +467,7 @@ footer {
 .containerp3 {
     float: right;
     max-height: 25%;
-    margin-top: -1740px;
+    margin-top: -1440px;
     margin-left: 200px;
 }
 
