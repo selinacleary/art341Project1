@@ -1,0 +1,509 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+
+/* Adjust box model to use the padding and border when calculating width */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* General Styles */
+
+body {
+    background-color: white;
+    font-family: 'raleway', sans-serif;
+}
+
+.page2,
+.page3,
+.page4,
+.page5 {
+    width: 946px;
+    margin: auto;
+    background-color: white;
+    padding: 0 100px;
+    padding: 0px
+}
+
+.page2 {
+    height: 2000px;
+}
+
+.p2div {
+    width: 946px;
+    background-color: #FFFDF5;
+    margin: auto;
+    height: 1977px;
+    padding: 0px -webkit-box-shadow: 0 0 30px 2px #333333;
+    box-shadow: 0 0 30px 2px #333333;
+    clear: both;
+}
+
+.p3div {
+    height: 1950px;
+}
+
+.p2section {
+    clear: both;
+    height: 1000px;
+}
+
+div {
+    width: 946px;
+    background-color: #FFFDF5;
+    margin: auto;
+    padding: 0px -webkit-box-shadow: 0 0 30px 2px #333333;
+    box-shadow: 0 0 30px 2px #333333;
+}
+
+.redwood,
+.redcedar,
+.whitespruce,
+.sequoia {
+    box-shadow: none;
+    background: none;
+    display: inline-block;
+    width: 100px;
+    padding-bottom: 30px;
+    margin: 7px 7px 0;
+}
+
+.dropdown {
+    box-shadow: none;
+    background: none;
+    background-color: #A7A9AC;
+    border-style: solid;
+    display: none;
+    width: 150px;
+    margin-left: 75px;
+    padding: 5px;
+    font-size: 10pt;
+}
+
+.redwood:hover .dropdown {
+    display: block;
+    color: white;
+    margin-top: -20px;
+}
+
+.sequoia:hover .dropdown {
+    display: block;
+    color: white;
+}
+
+.redcedar:hover .dropdown {
+    display: block;
+    color: white;
+}
+
+.whitespruce:hover .dropdown {
+    display: block;
+    color: white;
+}
+
+article {
+    width: 500px;
+    margin: auto;
+    display: block;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.icons {
+    margin-top: -20px;
+}
+
+header {
+    position: fixed;
+    width: 946px;
+    margin: auto;
+}
+
+section {
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 52px;
+    width: 422px;
+    margin: auto;
+    padding-top: 150px;
+    text-shadow: 4px 4px 20px #1F1F1F;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 60px;
+    width: 150px;
+    text-shadow: 4px 4px 20px #F15B2B;
+    color: #F15B2B;
+    line-height: 70px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 13pt;
+    width: 946px;
+    margin: auto;
+    text-shadow: 2px 2px 27px #1F1F1F;
+    letter-spacing: .5px;
+}
+
+p {
+    width: 300px;
+    margin: auto;
+    margin-right: 100%;
+    padding-bottom: 40px;
+    margin-top: -10px;
+    line-height: 20px;
+}
+
+.homep {
+    width: 422px;
+    margin: auto;
+    padding-bottom: 5px;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: white;
+    width: 946px;
+    margin: auto;
+    font-size: 12pt;
+}
+
+a:hover {
+    text-shadow: 4px 4px 20px #FFFFFF;
+}
+
+nav {
+    width: 946px;
+    margin: auto;
+    margin-bottom: 75px;
+    background-color: #2F302F;
+    padding-top: 40px;
+    padding-bottom: 22px;
+    height: 128px;
+    text-align: center;
+}
+
+nav a {
+    margin: 20px;
+    letter-spacing: .6px -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+hr {
+    height: 0px;
+    width: 422px;
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 30px;
+    text-shadow: 4px 4px 20px #1F1F1F;
+}
+
+.redwoodhr {
+    height: 0px;
+    width: 266px;
+    margin-right: 100%;
+    margin-top: 10px;
+}
+
+.sequoiahr {
+    height: 0px;
+    width: 249px;
+    margin-right: 100%;
+    margin-top: 10px;
+}
+
+.redcedarhr {
+    height: 0px;
+    width: 296px;
+    margin-right: 100%;
+    margin-top: 10px;
+}
+
+.sprucehr {
+    height: 0px;
+    width: 240px;
+    margin-right: 100%;
+    margin-top: 10px;
+}
+
+.conservhr {
+    height: 0px;
+    width: 215px;
+    margin-right: 100%;
+    margin-top: 10px;
+}
+
+.wherehr {
+    height: 0px;
+    width: 198px;
+    margin-right: 100%;
+    margin-top: 10px;
+}
+
+.folihr {
+    height: 0px;
+    width: 77px;
+    margin-right: 100%;
+    margin-top: 10px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.redwoodimg {
+    max-height: 320px;
+}
+
+.sequoiaimg {
+    max-height: 280px;
+}
+
+.redcedarimg {
+    max-height: 300px;
+}
+
+.spruceimg {
+    max-height: 150px;
+    padding-left: 15px;
+}
+
+.bigredwood {
+    height: 100%;
+    clear: both;
+}
+
+.foliage {
+    max-width: 150px;
+}
+
+.where {
+    max-height: 170px;
+}
+
+.conservation {
+    max-width: 230px;
+}
+
+.padding {
+    padding-top: 815px;
+}
+
+footer {
+    background-color: #A7A9AC;
+    width: 946px;
+    margin: auto;
+    color: white;
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: -34px;
+}
+
+.footerp {
+    width: 946px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0 0;
+    letter-spacing: .5px;
+}
+
+
+/* Site-Specific Styles */
+
+.container {
+    float: right;
+    max-height: 25%;
+    margin-top: -1770px;
+    clear: both;
+    margin-left: 200px;
+}
+
+.containerp3 {
+    float: right;
+    max-height: 25%;
+    margin-top: -1740px;
+    margin-left: 200px;
+}
+
+.containerp4 {
+    float: right;
+    max-height: 25%;
+    margin-top: -1060px;
+    margin-left: 200px;
+}
+
+.containerp5 {
+    float: right;
+    max-height: 25%;
+    margin-top: -1022px;
+    margin-left: 200px;
+}
+
+.sidebar {
+    margin-left: 10%;
+}
+
+.redwoodlink:hover,
+.redwood:hover {
+    color: green;
+}
+
+
+/* Helper Classes */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
